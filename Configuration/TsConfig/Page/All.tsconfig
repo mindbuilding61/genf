@@ -1,0 +1,18 @@
+#
+# PageTS for Genf
+	#
+
+# Die folgenden Dateien sind in deinem Beispiel auskommentiert:
+	# @import 'EXT:genf/Configuration/TsConfig/Page/RTE.tsconfig'
+# @import 'EXT:genf/Configuration/TsConfig/Page/TCEFORM.tsconfig'
+# @import 'EXT:genf/Configuration/TsConfig/Page/TCEMAIN.tsconfig'
+
+# Aktive Imports:
+	# Zuerst deine allgemeinen Definitionen (TCEFORM etc.)
+@import 'EXT:genf/Configuration/TsConfig/Page/page.tsconfig'
+
+# Dann die Backend-Layouts laden
+@import 'EXT:genf/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig'
+@import 'EXT:genf/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts/FooterBackendLayout.tsconfig'
+@import 'EXT:genf/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts/default.tsconfig'
+@import 'EXT:genf/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts/kasten.tsconfig'

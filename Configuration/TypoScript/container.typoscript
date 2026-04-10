@@ -1,0 +1,32 @@
+// default/general configuration (will add 'children_<colPos>' variable to processedData for each colPos in container
+tt_content.b13-2cols-with-header-container < lib.contentElement
+tt_content.b13-2cols-with-header-container {
+  templateName = 2ColsWithHeader
+  templateRootPaths {
+  10 = EXT:genf/Resources/Private/Templates
+}
+dataProcessing {
+  100 = B13\Container\DataProcessing\ContainerProcessor
+}
+}
+
+// if needed, you can use ContainerProcessor with explicitly set colPos/variable values
+tt_content.b13-2cols-with-header-container < lib.contentElement
+tt_content.b13-2cols-with-header-container {
+templateName = 2ColsWithHeader
+templateRootPaths {
+10 = EXT:genf/Resources/Private/Templates
+}
+dataProcessing {
+200 = B13\Container\DataProcessing\ContainerProcessor
+200 {
+colPos = 200
+as = children_200
+}
+201 = B13\Container\DataProcessing\ContainerProcessor
+201 {
+colPos = 201
+as = children_201
+}
+}
+}
