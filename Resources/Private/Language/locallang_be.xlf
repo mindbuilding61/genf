@@ -15,6 +15,15 @@
             <trans-unit id="backend_layout.footer">
                 <source>Footer</source>
             </trans-unit>
+            <trans-unit id="backend_layout.landingpage">
+                <source>Landingpage</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.column.hero">
+                <source>Hero</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.column.content">
+                <source>Inhalt</source>
+            </trans-unit>
             <trans-unit id="backend_layout.column.normal">
                 <source>Normal</source>
             </trans-unit>

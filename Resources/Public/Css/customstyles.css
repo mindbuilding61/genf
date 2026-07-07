@@ -613,6 +613,7 @@ hr:after {
 }
 
 /* Footer */
+.footer,
 div.footer {
     /*! margin-top: -1.5rem; */
     background-color:var(--footerfarbe2);
@@ -1262,6 +1263,7 @@ h5 {
         }
 
         /* Footer */
+        .footer,
         div.footer {
             /*! margin-top: -1.5rem; */
             background-color:var(--footerfarbe2);
@@ -1508,3 +1510,26 @@ h5 {
                 width: 100%;
             }
         }
+
+/* Landingpage */
+.landingpage-header {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.landingpage-logo img {
+    max-width: var(--siteLogoWidth, 200px);
+    height: auto;
+}
+
+.landingpage-hero {
+    width: 100%;
+}
+
+.landingpage-content {
+    padding: 2rem 0 3rem;
+}
+
+.landingpage-footer {
+    margin-top: 0;
+}
